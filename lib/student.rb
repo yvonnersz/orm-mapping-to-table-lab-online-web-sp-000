@@ -40,5 +40,6 @@ class Student
     student = Student.new(name,grade)
     student.save
     student
+    binding.pry
   end
 end
